@@ -7,7 +7,6 @@ import pyttsx3               # Untuk text-to-speech (suara)
 import threading             # Agar suara dijalankan tanpa membuat video macet
 
 # INISIALISASI SISTEM DETEKSI DAN SUARA
-
 # Inisialisasi modul hands dari Mediapipe
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
